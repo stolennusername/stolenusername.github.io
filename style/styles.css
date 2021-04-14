@@ -4,6 +4,7 @@
 div {
     justify-content: center;
     text-align: center;
+    display: inline-block;
 }
 table{
     margin-left:auto;
@@ -31,7 +32,18 @@ td {
 .twentyFour{
     background-color: lightpink;
 }
-ul ol{
-    display: table;
+ul{
+    display: inline-block;
+    text-align: left;
     margin: 0 auto;
+    list-style-position: inside;
+}
+ol{
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+li {
+    text-align: left;
 }
