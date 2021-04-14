@@ -2,10 +2,20 @@
     text-align: center;
 }
 div {
-    align-content: center;
-    background-color: yellow;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
 
 }
-html {
-    ;
+table{
+    margin-left:auto;
+    margin-right: auto;
+    border-spacing: 3px;
+}
+td {
+    padding: 3px;
+}
+ul ol{
+    display: table;
+    margin: 0 auto;
 }
