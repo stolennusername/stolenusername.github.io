@@ -4,8 +4,6 @@
 div {
     justify-content: center;
     text-align: center;
-    background-color: lightblue;
-
 }
 table{
     margin-left:auto;
@@ -14,6 +12,24 @@ table{
 }
 td {
     padding: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+.math{
+    background-color: lightyellow;
+
+}
+.twentyThree{
+    background-color: lightgreen;
+}
+.three{
+    background-color: lightcoral;
+}
+.twentyFive{
+    background-color: lightskyblue;
+}
+.twentyFour{
+    background-color: lightpink;
 }
 ul ol{
     display: table;
